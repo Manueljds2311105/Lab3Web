@@ -1,23 +1,14 @@
-# 🧩 Praktikum 3: Membuat List, Table, dan Form
+# Lab3Web
 
 **Mata Kuliah:** Pemrograman Web  
 **Dosen:** Agung Nugroho, S.Kom., M.Kom.  
 **Universitas:** Universitas Pelita Bangsa  
-**Nama:** _(Isi dengan nama kamu)_  
-**NIM:** _(Isi dengan NIM kamu)_  
+**Nama:** Manuel Johansen Dolok Saribu  
+**NIM:** 312410493  
 
 ---
 
-## 🎯 Tujuan Praktikum
-1. Memahami struktur dasar pembuatan **List** di HTML.  
-2. Memahami struktur dasar pembuatan **Tabel**.  
-3. Memahami tag-tag dasar pembuatan **Form**.  
-4. Membuat dokumen HTML yang lebih kompleks.  
-5. Menerapkan **CSS** pada List, Table, dan Form.
-
----
-
-## 🧱 1. Persiapan Dokumen HTML
+## 1. Persiapan Dokumen HTML
 Buat file baru bernama **`lab3_list.html`** dan tuliskan struktur dasar HTML berikut:
 
 ```html
@@ -36,12 +27,9 @@ Buat file baru bernama **`lab3_list.html`** dan tuliskan struktur dasar HTML ber
 </html>
 ```
 
-📸 **Screenshot:**  
-_(Tambahkan hasil tampilan browser di sini)_
-
 ---
 
-## 🔢 2. Membuat Ordered List
+## 2. Membuat Ordered List
 Tambahkan kode berikut untuk membuat list terurut:
 
 ```html
@@ -55,16 +43,16 @@ Tambahkan kode berikut untuk membuat list terurut:
 </section>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - `<ol>` digunakan untuk membuat daftar terurut.  
 - `<li>` adalah elemen item daftar.  
 - Atribut `type` dan `start` bisa digunakan untuk mengubah jenis penomoran.  
 
-📸 **Screenshot Ordered List**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2010_50_39%20AM.png)
 
 ---
 
-## 🔘 3. Membuat Unordered List
+## 3. Membuat Unordered List
 Tambahkan list tanpa urutan angka menggunakan tag `<ul>`:
 
 ```html
@@ -78,15 +66,15 @@ Tambahkan list tanpa urutan angka menggunakan tag `<ul>`:
 </section>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - `<ul>` membuat daftar tidak berurutan.  
 - Atribut `type` dapat berupa: `disc`, `circle`, `square`.  
 
-📸 **Screenshot Unordered List**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2010_51_50%20AM.png)
 
 ---
 
-## 📄 4. Membuat Description List
+## 4. Membuat Description List
 Tambahkan description list menggunakan tag `<dl>`, `<dt>`, dan `<dd>`:
 
 ```html
@@ -105,16 +93,16 @@ Tambahkan description list menggunakan tag `<dl>`, `<dt>`, dan `<dd>`:
 </section>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - `<dl>` mendefinisikan daftar deskripsi.  
 - `<dt>` adalah istilah (judul).  
 - `<dd>` adalah deskripsi dari istilah tersebut.  
 
-📸 **Screenshot Description List**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2010_52_57%20AM.png)
 
 ---
 
-## 📊 5. Membuat Tabel
+## 5. Membuat Tabel
 Buat file baru bernama **`lab3_tabel.html`**.  
 Tambahkan kode berikut:
 
@@ -147,17 +135,17 @@ Tambahkan kode berikut:
 </table>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - `<table>` membuat tabel.  
 - `<thead>` untuk kepala tabel.  
 - `<tbody>` untuk isi tabel.  
 - `<tr>` membuat baris, `<th>` untuk judul kolom, `<td>` untuk isi data.  
 
-📸 **Screenshot Tabel**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2011_01_44%20AM.png)
 
 ---
 
-## 🧩 6. Menggabungkan Sel (Rowspan & Colspan)
+## 6. Menggabungkan Sel (Rowspan & Colspan)
 
 ```html
 <table border="1" cellpadding="6" cellspacing="0">
@@ -186,15 +174,15 @@ Tambahkan kode berikut:
 </table>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - `rowspan` digunakan untuk menggabungkan sel secara **vertikal**.  
 - `colspan` digunakan untuk menggabungkan sel secara **horizontal**.  
 
-📸 **Screenshot Penggabungan Sel**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2011_05_13%20AM.png)
 
 ---
 
-## 🧾 7. Membuat Form
+## 7. Membuat Form
 Buat file baru bernama **`lab3_form.html`**.  
 Tambahkan kode berikut:
 
@@ -220,18 +208,18 @@ Tambahkan kode berikut:
 </form>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 Form digunakan untuk **mengambil input dari pengguna**.  
 Elemen penting:
 - `<input>` untuk input teks/radio/button.  
 - `<textarea>` untuk input banyak baris.  
 - `<fieldset>` dan `<legend>` untuk mengelompokkan form.
 
-📸 **Screenshot Form**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2011_08_56%20AM.png)
 
 ---
 
-## 🎨 8. Menambahkan CSS pada Form
+## 8. Menambahkan CSS pada Form
 
 ```html
 <style>
@@ -252,16 +240,16 @@ Elemen penting:
 </style>
 ```
 
-📘 **Penjelasan:**  
+**Penjelasan:**  
 - CSS digunakan untuk **memperindah tampilan form**.  
 - Label diatur lebar tetap agar sejajar.  
 - Tombol submit diberi warna dan padding agar menarik.  
 
-📸 **Screenshot Form dengan CSS**
+![foto](https://github.com/Manueljds2311105/foto/blob/be06d5b3607d4ed0f94b34d81db3909ab4a13b0e/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%2011_10_42%20AM.png)
 
 ---
 
-## 🧠 9. Tugas Tambahan
+## 9. Tugas Tambahan
 Buat form tambahan yang menampilkan **dropdown menu** dan **listbox multiple selection**.
 
 ```html
@@ -284,38 +272,6 @@ Buat form tambahan yang menampilkan **dropdown menu** dan **listbox multiple sel
 </p>
 ```
 
-📸 **Screenshot Dropdown & Listbox**
+📸
 
 ---
-
-## ✅ Hasil Akhir
-- Terdapat **tiga file utama:**
-  1. `lab3_list.html`
-  2. `lab3_tabel.html`
-  3. `lab3_form.html`
-
-- Semua file telah divalidasi menggunakan [W3C Validator](http://validator.w3.org/).  
-- CSS telah diterapkan untuk mempercantik tampilan form.
-
----
-
-## 💾 Repository GitHub
-Upload seluruh hasil ke repository dengan nama:  
-> **`Lab3Web`**
-
-Struktur folder:
-```
-Lab3Web/
-├── lab3_list.html
-├── lab3_tabel.html
-├── lab3_form.html
-└── README.md
-```
-
-Commit hasil pekerjaan dan kirim URL repository ke e-learning.
-
----
-
-✍️ **Dibuat oleh:**  
-_(Nama & NIM kamu)_  
-_Pemrograman Web - Universitas Pelita Bangsa_
