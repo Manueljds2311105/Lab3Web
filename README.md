@@ -250,28 +250,32 @@ Elemen penting:
 ---
 
 ## 9. Tugas Tambahan
-Buat form tambahan yang menampilkan **dropdown menu** dan **listbox multiple selection**.
+Buat form tambahan yang menampilkan **dropdown** menu dan **listbox** multiple selection.
 
 ```html
-<p>
-    <label for="jurusan">Pilih Jurusan</label>
-    <select id="jurusan" name="jurusan">
-        <option>Teknik Informatika</option>
-        <option>Teknik Industri</option>
-        <option>Manajemen</option>
-    </select>
-</p>
+        <p>
+          <label for="jurusan">Pilih Jurusan</label>
+          <select id="jurusan" name="jurusan">
+            <option>Teknik Informatika</option>
+            <option>Teknik Industri</option>
+            <option>Manajemen</option>
+          </select>
+        </p>
 
-<p>
-    <label for="hobi">Hobi</label>
-    <select id="hobi" name="hobi" multiple>
-        <option>Membaca</option>
-        <option>Olahraga</option>
-        <option>Musik</option>
-    </select>
-</p>
+        <p>
+          <label for="hobi">Pilih Hobi:</label>
+          <select id="hobi" name="hobi" multiple size="5">
+            <option value="membaca">Membaca</option>
+            <option value="olahraga">Olahraga</option>
+            <option value="musik">Musik</option>
+            <option value="traveling">Traveling</option>
+            <option value="memasak">Memasak</option>
+            <option value="gaming">Gaming</option>
+            <option value="fotografi">Fotografi</option>
+          </select>
+        </p>
 ```
 
-📸
+![foto](https://github.com/Manueljds2311105/foto/blob/f4f59ab8d2ea82961177d394e571462543b9e06b/HTML%20Lanjutan%20-%20Google%20Chrome%2010_8_2025%202_49_11%20PM.png)
 
 ---
