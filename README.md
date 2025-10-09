@@ -1,10 +1,9 @@
 # Lab3Web
 
-**Mata Kuliah:** Pemrograman Web  
-**Dosen:** Agung Nugroho, S.Kom., M.Kom.  
-**Universitas:** Universitas Pelita Bangsa  
 **Nama:** Manuel Johansen Dolok Saribu  
 **NIM:** 312410493  
+**Mata Kuliah:** Pemrograman Web  
+**Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.  
 
 ---
 
